@@ -1,0 +1,157 @@
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image:url("https://cdn.discordapp.com/attachments/1005199143117012997/1012021159551828078/whitebg.jpg");
+   backdrop-filter: blur(4px);
+    background-repeat:repeat;
+    background-size:3000px;
+}
+nav{
+    width:100%;
+    overflow: auto;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    padding: auto;
+    padding-left: 5%;
+    margin:0 0 0 200px;
+    list-style:none;
+}
+ul li{
+    float:left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+li a {
+    width:100px;
+    display: block;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 10x;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+a:hover{
+    background: #46769B;
+    text-transform: uppercase;
+}
+.logo img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.container{
+    margin:30px 30px;
+    width:50%;
+    padding:1px;
+    top:0px;
+}
+.container h1{
+    color:rgb(0, 0, 0);
+    font-style:italic;
+    margin:0;
+    position: relative;
+    left: 0px;
+    top:0px;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+    font-size:60px;
+    font-weight: bolder;
+    margin-top:50px;
+}
+.text{
+    color:rgb(0, 0, 0);
+    font-size: 120%;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 6px;
+    transition: transform(-40%,-40%);
+    text-align: justify;
+    width:65%;
+    float:left;
+  }
+  .container2 {
+    width: 800px;
+    height: 450px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative; 
+    left:150px;
+    top:20px;
+    margin-top:0px ;
+}
+.swiper {
+    width: 900px;
+    height: 400px;
+   
+}
+.swiper-slide img {
+    width: 550px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:900px;
+    top:2px;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:rgba(75, 46, 23, 0.807);
+}
+.swiper .swiper-pagination-bullet-active{
+    
+    background:rgba(75, 46, 23, 0.807);
+}
+.quotes{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 150%;
+    margin-left: 10px;
+    color:black;
+    height:200px;
+    
+  }
+  .container3{
+    position: absolute;
+  }
+.container3 h1{
+    font-weight:bolder;
+    font-size: 3.8;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+    margin-top:120px;
+    
+}
+.container3 p{
+    color:black;
+    font-size:1.3vw;
+    font-style: bolder;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+
+}
+.container3 img{
+    width:23%;
+}
+.video{
+    margin-top: 800px;
+    margin-left: 265px;
+    justify-items: center;
+
+}
+.quote2{
+    font-family: 'Brush Script MT', 'cursive';
+    font-size: 176%;
+    margin-left:350px;
+    color:black;
+}

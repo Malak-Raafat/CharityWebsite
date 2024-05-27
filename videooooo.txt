@@ -1,0 +1,303 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" >
+ <html>
+    <head>
+        <title> Together Foundation </title>
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&display=swap" rel="stylesheet">
+        <meta charset="UTF-8"/>
+        <meta name="description" content="for helping people all over the world." />
+        <meta name="keyword" content="help,share ,give" />
+        <link rel="stylesheet" href="home.css"/>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.css" />
+       
+    </head>[]
+
+
+    <body>
+        <div class="logo">
+            <a href="#"> <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1009482750597812264/tog2.png" height="53" width="200"></a>
+          </div>
+          <nav>
+            <ul>
+             <li><a href="file:///C:/Users/Ahmed%20Raafat/Documents/charity/home.html"> Home </a></li>
+             <li><a href="C:\Users\Ahmed Raafat\Documents\charity\activities.html"> Actvities </a></li>
+             <li><a href="#"> Volunteer </a></li>
+             <li><a href="file:///C:/Users/Ahmed%20Raafat/Documents/charity/Donate.html"> Donation </a></li>
+             <li><a href="file:///C:/Users/Ahmed%20Raafat/Documents/charity/branches.html"> Branches </a></li>
+             <li><a href="C:\Users\Ahmed Raafat\Documents\charity\aboutus.html"> About Us </a></li>
+             <li><a href="file:///C:/Users/Ahmed%20Raafat/Documents/charity/login.html"> Log Out </a></li>
+             </ul>
+           </nav>
+           <div class="container">
+            <div class="text">
+                
+            <h1>
+                TOGETHER
+             </h1>
+             <p>The goal of the founding team was to spread volunteerism and positivity in society,
+             cultivate belonging and other negative ideas.
+             They chose the name TOGETHER to express that the team’s goal is to spread the message of volunteerism,
+             positivity and cooperation in the college and the community as a whole.</p>
+             <br><hr>
+             <div class="quotes">
+                <p>“It is in your hands, to make a better world for all who live in it.”</p>
+                <p><strong>Nelson Mandela</strong></p>
+                <br>
+    
+            </div>
+           </div>
+        </div>
+       
+
+        <div class="container2">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/c6bb9dde5d9b01d978e3e504e85483d6.jpg" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/flat-clothing-donation-concept_52683-54768.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/flat-world-cancer-day-background_23-2147745545.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/smiling-young-woman-hold-ponytail-hair-donation-needy-people-happy-female-volunteer-donate_160308-4244.jpg" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/man-nurse-care-old-senior-person-vector_103044-2337.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/hand-drawn-flat-international-day-against-breast-cancer-background_23-2149070006.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/hand-drawn-illustration-world-down-syndrome-day_23-2148825647.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/human-donates-blood-world-blood-donor-day-card-design_1035-23206.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/diverse-handicap-people-group-disability-concept-disabled-character-wheelchair-man-woman-with-bionic-hand-leg-prosthesis-blind-girl-with-stick-guide-dog-cartoon-vector-illustration_107791-9729.webp" /></div>
+                    ...
+                </div><!--cloosing swiper-slide div-->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+    
+            </div><!--closing swiper div-->
+        </div><!--closing end of container div-->
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay:{
+                    delay: 3000,
+                    disableOnInteraction:false,
+            },
+    
+                loop: true,
+    
+                // pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    //da lama bndos 3al dwareya el taht byghyarha
+                    clickable: true ,
+                },
+    
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+    
+            });
+        </script>    
+         
+           <br> 
+            <div class="container3">
+               <h1><strong>Achievements</strong></h1>
+                <p><strong>Together charity </strong> has made many achievements that we have treated about <strong>1009837</strong> patients annualy ,
+                   <strong>90219</strong>  cancer patients , <strong>2000</strong> blind people,<Strong>500</Strong> deaf people ,also we build many associations for us to help you to
+                     volunteer , donate or also have a visit for orphans and older people  </p>
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012752718428901446/d.jpg">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012752718835757108/f.jpg">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012752719120973914/c.webp">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012756092805197844/l.jpg">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012755729406509106/k.jpg">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012754862146072697/g.jpg">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012724404205138041/young-woman-holding-senior-woman-s-hand_493343-24884.webp">
+                     <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1012758766409748520/fg.jpg">
+                             </div>
+                             <div class="video">
+                             <iframe width="1000" height="570" src="https://www.youtube.com/embed/8wDwU71kVr8" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+
+                             </iframe>
+                             </div>
+                             <div class="quote2">
+                             <p>“Try and leave this world a little better than you found it and when your turn comes to die, <br>you can die happy in feeling that at any rate you have not wasted your time but have done your best.” </p>
+                             <p><strong>Robert Baden Powell</strong></p>
+                             </div>
+    </body> 
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+body,html{
+    margin: 0;
+    padding: 0;
+    background-image:url("https://cdn.discordapp.com/attachments/1005199143117012997/1012021159551828078/whitebg.jpg");
+    background-repeat:repeat;
+    background-size:3000px;
+}
+nav{
+    width:100%;
+    overflow: auto;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    padding: auto;
+    padding-left: 5%;
+    margin:0 0 0 200px;
+    list-style:none;
+}
+ul li{
+    float:left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+li a {
+    width:100px;
+    display: block;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 10x;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+a:hover{
+    background: #46769B;
+    text-transform: uppercase;
+}
+.logo img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.container{
+    margin:30px 30px;
+    width:50%;
+    padding:1px;
+    top:0px;
+}
+.container h1{
+    color:rgb(0, 0, 0);
+    font-style:italic;
+    margin:0;
+    position: relative;
+    left: 0px;
+    top:0px;
+    font-family: 'Brush Script MT', cursive;
+    font-size:60px;
+    font-weight: bolder;
+    margin-top:50px;
+}
+.text{
+    color:rgb(0, 0, 0);
+    font-size: 120%;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+    margin-top: 6px;
+    transition: transform(-40%,-40%);
+    text-align: justify;
+    width:65%;
+    float:left;
+  }
+  .container2 {
+    width: 800px;
+    height: 450px;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative; 
+    left:150px;
+    top:20px;
+    margin-top:0px ;
+}
+.swiper {
+    width: 900px;
+    height: 400px;
+   
+}
+.swiper-slide img {
+    width: 550px;
+    height: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position:relative;
+    left:900px;
+    top:2px;
+}
+.swiper .swiper-button-prev,.swiper .swiper-button-next{
+    color:rgba(75, 46, 23, 0.807);
+}
+.swiper .swiper-pagination-bullet-active{
+    
+    background:rgba(75, 46, 23, 0.807);
+}
+.quotes{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 150%;
+    margin-left: 10px;
+    color:black;
+    height:200px;
+    
+  }
+  .container3{
+    position: absolute;
+  }
+.container3 h1{
+    font-weight:bolder;
+    font-size: 3.8;
+    text-align:center;
+    color:rgb(0, 0, 0);
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+    margin-top:120px;
+    
+}
+.container3 p{
+    color:black;
+    font-size:1.3vw;
+    font-style: bolder;
+    font-family: 'DynaPuff', cursive;
+    font-family: 'Secular One', sans-serif;
+
+}
+.container3 img{
+    width:23%;
+}
+.video{
+    margin-top: 800px;
+    margin-left: 265px;
+    justify-items: center;
+
+}
+.quote2{
+    font-family: 'Brush Script MT', cursive;
+    font-size: 176%;
+    margin-left:350px;
+    color:black;
+}
+

@@ -1,0 +1,224 @@
+ 
+  <!DOCTYPE html>
+  <html lang="en">
+    <head>
+      <meta charset="UTF-8" />
+      <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  
+      <title>Document222</title>
+      <link href="adminpage.css" rel="stylesheet" />
+  
+  <script>
+
+        function validateForm() {
+            var valid = true;
+            if (document.Form.Fname.value == "") {
+                alert("Please write your first name");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Sname.value == "") {
+                alert("Please write your surname");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Phone.value == "") {
+                alert("Please write your phone number");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Email.value == "") {
+                alert("Please write your E-Mail");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.value.value == "") {
+                alert("Please write donation value");
+                document.Form.name.focus();
+                valid = false;
+            }
+
+            else if (document.Form.Email.value.indexOf("@") == -1 || document.Form.Email.value.indexOf(".") == -1) {
+                alert("Please Enter valid email, e.g:info@yahoo.com");
+                document.Form.Email.focus();
+                valid = false;
+            }
+else if(valid==false){
+    return 0;
+}
+            else
+                return valid;
+        }
+        function submitting() {
+            alert("You Submitted The Form");
+        }
+    </script>
+</head>
+
+<style>
+  
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url("https://cdn.discordapp.com/attachments/1005199143117012997/1012021159551828078/whitebg.jpg");
+}
+
+.background-image {
+   background-size: contain;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+
+}
+
+.donate-box {
+    background-color: var(--color);
+    color:white;
+    padding: 30px 30px;
+    left: 50%;
+    top: 79.5%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+}
+
+    .donate-box h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .donate-box p {
+        margin: 0;
+        padding: 0;
+        font-family: 'DynaPuff', cursive;
+        font-family: 'Secular One', sans-serif;
+        font-weight: 500;
+        font-size: 2.5vh;
+        text-align: center;
+    }
+
+input[type=submit] {
+    width: 40%;
+    background-color:black;
+    color: white;
+    padding: 12px 0px 12px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 2.1vh;
+}
+
+.donate-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: black;
+    color: black;
+}
+
+input[type=reset] {
+    width: 40%;
+    background-color:black;
+    color: white;
+    padding: 12px 0px 12px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 2.1vh;
+}
+
+.donate-box input[type="reset"]:hover {
+    cursor: pointer;
+    background: rgb(4, 146, 171);
+    color: black;
+}
+</style>
+<body>
+    <header>
+        <div class="container2">
+          <div class="logo">
+              <a href="#"> <img src="logotransparent" height="53" width="200"></a>
+            </div>
+            <nav>
+              <li><a href="D:\web dev\together\homeadmin.html"> Home </a></li>
+              <li><a href="D:\web dev\together\activitiesadmin.html"> Actvities </a></li>
+              <li><a href="D:\web dev\together\volunteeradmin.html"> Volunteer </a></li>
+              <li><a href="D:\web dev\together\donationadmin.html"> Donation </a></li>
+              <li><a href="file:///D:/web%20dev/together/branchesadmin.html"> Branches </a></li>
+              <li><a href="file:///D:/web%20dev/together/aboutusadmin.html"> About Us </a></li>
+              <li><a href="file:///D:/web%20dev/together/login.html"> Log Out </a></li>
+              <li><a href="D:\web dev\together\adminpage.html"> ADMIN </a></li>
+               </ul>
+             </nav>
+        
+  
+          <ul class="mainColors">
+            <li class="colors" id="blue" data-color="#3498db"></li>
+            <li class="colors" id="red" data-color="#a50808"></li>
+            <li class="colors" id="yellow" data-color="#d4ef1e"></li>
+            <li class="colors" id="green" data-color="#34db5b"></li>
+            <li class="colors" id="black" data-color="#020d14"></li>
+            <li class="colors" id="move" data-color="#9b59b6"></li>
+          </ul>
+        </span>
+      </header>
+      <script src="adminpage.js"></script>
+
+      <div class="donate-box">
+          <h1>
+              DONATE HERE...
+          </h1>
+          <form name="Form"
+        onreset="alert('The Form Will Be Reset')"
+        onsubmit="validateForm(),submitting()">
+        <div class="background-image"></div>
+              <p>
+                  Firstname: <input type="text" name="Fname" placeholder="your Firstname.." /> <br />  <br />
+                  Surname: <input type="text" name="Sname" placeholder="your Surname.." /> <br /> <br />
+                  Phone: <input type="text" name="Phone" placeholder="your Phone number.." /> <br /> <br />
+                  E-Mail: <input type="text" name="Email" placeholder="your Email.." /> <br /> <br />
+                  Donate to: <select>
+
+                      <option value="Literacy"> Literacy </option>
+                      <option value="Poor Bank">Poor Bank</option>
+                      <option value="Build"> Building mosques and Churches </option>
+                      <option value="Help">Helping Blind , Deaf</option>
+                      <option value="Build2">Building Hospitals</option>
+                      <option value="Feed"> Feeding People </option>
+                      <option value="Help2">Helping Poor People</option>
+                      <option value="Help3"> Helping orphans</option>
+                      <option value="Cure">Addiction Cure</option>
+                      <option value="Cure2">Animal Cure</option>
+                      <option value="Patients">Cancer Patients</option>
+                      <option value="Patients2">AIDS Patients</option>
+
+                  </select> <br /> <br />
+                  Donation value: <input type="text" name="value" placeholder="Write a value.." /> <br /> <br />
+                  Gender : <br />
+                  <input type="radio" name="Mal" /> Male <br />
+                  <input type="radio" name="Fem" /> Female <br />
+                  <br />
+                  Comment: <br />
+                  <textarea rows="4" cols="50"> </textarea>
+                  <br /> <br />
+                  Payment Method: <br /> <br />
+                  <input type="radio" name="Pay1" /> Fawry <br />
+                  <input type="radio" name="pay2" /> CIB <br />
+                  <input type="radio" name="Pay3" /> QNB <br />
+                  <input type="radio" name="pay4" /> Aman <br />
+                  <input type="radio" name="pay5" /> Vodafone Cash <br /> <br />
+                  <input type="submit" value="Submit" />
+                  <input type="reset" value="Reset" />
+
+              </p>
+
+
+        </form>
+      </div>
+
+  
+
+</body>
+</html>

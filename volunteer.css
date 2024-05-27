@@ -1,0 +1,207 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    overflow: auto;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+ul{
+    padding: auto;
+    padding-left: 5%;
+    margin:0 0 0 200px;
+    list-style:none;
+}
+ul li{
+    float:left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+li a {
+    width:100px;
+    display: block;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+a:hover{
+    background: #46769B;
+    text-transform: uppercase;
+}
+.logo img{
+    margin-top: 0px;
+    margin-left: 10px;
+    width:5.2cm;
+    position: absolute;
+height: 1.5cm;
+}
+
+
+
+body {
+    font-family: sans-serif;
+    background-image: url("https://cdn.discordapp.com/attachments/1005199143117012997/1012021159551828078/whitebg.jpg");
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    bottom: 50%;
+    
+}
+
+img {
+    width: 5.5rem;
+    height: 5.2rem;
+    border-radius: 50%;
+}
+
+.img {
+    position: fixed;
+}
+
+#title {
+    text-align: center;
+    position: relative;
+    top: 50px;
+    font-style: italic;
+    font-size: 3rem;
+    color: midnightblue;
+
+      
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.questions {
+    margin: 3rem auto;
+    width: 90vw;
+    padding: 2rem;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    cursor: default;
+    border-radius: 1rem;
+    position: relative;
+    top: 40px;
+    font-style: italic;
+}
+
+#question {
+    margin-bottom: 1rem;
+}
+
+.option {
+    margin-bottom: 0.5rem;
+    font-size: 1.2rem;
+    background: rgba(239, 226, 211, 0.897);
+    border-radius: 1rem;
+    position: relative;
+    right: 20px;
+    top: 20px;
+}
+
+    .option:hover {
+        color: midnightblue;
+    }
+    .next:hover{
+        color:midnightblue;
+    }
+
+ol {
+    position: relative;
+    padding: 0 1.5rem;
+    color: white;
+    font-style: normal;
+}
+
+span {
+    display: block;
+    padding: 0.1rem 0.7rem;
+    border-radius: 1rem;
+}
+
+#answer {
+    margin-top: 2.5rem;
+   
+}
+
+#stat {
+    margin-top: 1.5rem;
+    color: white;
+    position: relative;
+    top: 30px;
+}
+
+.next {
+    text-align: center;
+    position: relative;
+    left: 620px;
+    top: 50px;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    color: white;
+    width: fit-content;
+}
+
+button {
+    padding: 0.2rem 1.5rem;
+    border: none;
+    outline: none;
+    font-size: 1.5rem;
+    border-radius: 1.5rem;
+    color: white;
+    width: 10px;
+    background: midnightblue;
+}
+
+    button:active {
+        background:white;
+    }
+
+#scoreboard, #answerBank {
+    width: 20rem;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    padding: 2rem;
+    text-align: center;
+    margin: auto;
+    position: relative;
+    top: 5rem;
+    display: none;
+    color:white;
+}
+
+
+#score-title {
+    margin: 1rem 0;
+}
+
+#score-btn, #check-answer {
+    margin-top: 1rem;
+    width: fit-content;
+
+}
+#score-btn:hover{
+    color:blue;
+}
+#score {
+    font-size: 2.5rem;
+}
+
+#answerBank li {
+    text-align: left;
+    margin-bottom: 0.2rem;
+    font-size: larger;
+}
+
+#answers {
+    margin-top: 1rem;
+}
+
+.questions {
+    color: white;
+}

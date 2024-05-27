@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title> Login Form</title>
+        <link rel="stylesheet" href="login.css"/>
+        <script type="text/javascript"> 
+
+            function validateForm() {
+                var valid = true;
+        if(document.inputForm.UserName.value==""){
+            alert("Username is empty");
+            valid=false;
+        }
+         else if(document.inputForm.Password.value==""){
+            alert("Password is empty");
+            valid=false;
+         }
+         return valid;
+        }
+    </script> 
+    </head>
+    <body>
+        
+        <div class="background-image">
+        </div>
+        <div class="login-box">
+            <h1>Login Here</h1>
+            <form name="inputForm" action="file:///D:/web%20dev/together/home.html">
+                <p>Username</p>
+                <input type="text" name="UserName" placeholder="Enter username"/>
+                <p>Password</p>
+                <input type="password" name="Password" placeholder="Enter password"/>
+                <input type="Submit" name="submit" value="Login" onclick = "return validateForm()" />
+                <a href="file:///D:/web%20dev/together/registration.html.html">REGISTER NOW</a> <br>
+                <a href="file:///D:/web%20dev/together/adminlogin.html"> Sign in as an ADMIN </a>
+
+            </form>
+        </div>
+     
+    </body> 
+</html>

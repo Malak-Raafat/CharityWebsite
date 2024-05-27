@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+nav{
+    width:100%;
+    overflow: auto;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    height: 55px;
+  
+    justify-content: space-between;
+
+}
+ul{
+    padding: auto;
+    padding-left: 5%;
+    margin:0 0 0 200px;
+    list-style:none;
+}
+ul li{
+    float:left;
+    margin-top: 5px;
+    margin-left: 50px;
+}
+li a {
+    width:100px;
+    display: block;
+    padding:  20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+a:hover{
+    background: #46769B;
+    text-transform: uppercase;
+}
+.logo img{
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+}
+.intro {
+    padding: 50px;
+    text-align: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    color: white;
+}
+
+.all-about-us {
+    background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR309VMXDhCBr14xF4isX_T33h-l5VPGkLShQ&usqp=CAU");
+    background-repeat: no-repeat;
+    background-size: 1800px;
+}
+
+h1.about {
+    font-size: 55px;
+    text-transform: uppercase;
+}
+
+p.quote {
+    font-size: 15px;
+}
+
+h2.our {
+    font-size: 40px;
+    text-align: center;
+    /*text-decoration:underline;
+     text-transform:capitalize;*/
+}
+
+h3.community {
+    text-align: center;
+    font-size: 30px;
+}
+
+.footer {
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    color: white;
+}
+
+.r1-c1 {
+    position: relative;
+    left: 150px;
+    top: 1px;
+}
+
+.r1-c2 {
+    position: relative;
+    left: 400px;
+    top: 1px;
+}
+
+.r1-c3 {
+    position: relative;
+    left: 800px;
+    top: 1px;
+}
+
+.r2-c1 {
+    position: relative;
+    left: 150px;
+    top: 10px;
+}
+
+.r2-c2 {
+    position: relative;
+    left: 400px;
+    top: 10px;
+}
+
+.r2-c3 {
+    position: relative;
+    left: 800px;
+    top: 10px;
+}
+
+.copy-right, .policy {
+    position: relative;
+    left: 500px;
+    top: 15px;
+}
+/*.farah {
+    float: left;
+    text-align: center;
+    font-style: italic;
+    font-size: smaller;
+    border: thin silver solid;
+    margin: 0.5em;
+    padding: 0.5em;
+}*/
+
+* {
+    box-sizing: border-box;
+}
+
+.farah, .soheir, .yara {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.images1::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.malak, .micheal, .mariam {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.images2::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.NameI {
+    border-style: solid;
+    border-width: thick;
+    color: #000046;
+}
+
+h2.our, .NameF {
+    color: #000046;
+}
+.farah:hover{
+    transform:scale(1.1);
+    transition: .3s ease transform;
+}
+.malak:hover{
+    transform:scale(1.1);
+    transition: .3s ease transform;
+}
+.micheal:hover{
+transform:scale(1.1);
+transition: .3s ease transform;
+}
+.soheir:hover{
+    transform:scale(1.1);
+    transition: .3s ease transform;
+}
+.mariam:hover{
+    transform:scale(1.1);
+    transition: .3s ease transform;
+}
+.yara:hover{
+    transform:scale(1.1);
+    transition: .3s ease transform;
+}

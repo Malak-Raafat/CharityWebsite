@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Registration Form</title>
+	<link rel="stylesheet" href="registration.css">
+  <script type="text/javascript"> 
+
+  function validateForm() {
+    var valid = true;
+    var terms = document.getElementById("check").checked;
+  
+    if(document.inputForm.Fname.value==""){
+    alert("First name is empty");
+    valid=false;
+ }
+    else if(document.inputForm.Lname.value==""){
+    alert("Last Name is empty");
+    document.inputForm.Lname.focus();
+    valid=false; }
+    else if(document.inputForm.Pass.value==""){
+    alert("Password is empty");
+    document.inputForm.Pass.focus();
+    valid=false; }
+    else if(document.inputForm.pass.value==""){
+    alert("Please confirm your password");
+    document.inputForm.pass.focus();
+    valid=false; }
+    else if(document.inputForm.mobile.value==""){
+    alert("phone number is empty");
+    document.inputForm.mobile.focus();
+    valid=false; }
+   
+    else if(document.inputForm.mail.value.indexOf("@")==-1||document.inputForm.mail.value.indexOf(".")==-1){
+    alert("Please Enter valid email, e.g:info@yahoo.com");
+    document.inputForm.mail.focus();
+    valid=false; }
+    else if(document.inputForm.adress.value==""){
+    alert("adress is required");
+    document.inputForm.adress.focus();
+    valid=false; }
+    
+    else if (terms == false)
+    {  alert("please confirm our terms and conditions");
+}
+  
+else {
+      alert("form has been submitted");
+      
+    }
+   return valid;
+}
+        </script> 
+    </head>
+<body>
+  <Form name="inputForm" action = "file:///D:/web%20dev/together/home.html">
+<div class="wrapper">
+    <div class="title">
+      Registration
+    </div>
+    <div class="form">
+       <div class="inputfield">
+          <label>First Name</label>
+          <input type="text" name = "Fname" class="input">
+       </div>  
+        <div class="inputfield">
+          <label>Last Name</label>
+          <input type="text"name = "Lname" class="input">
+       </div>  
+       <div class="inputfield">
+          <label>Password</label>
+          <input type="password" name = "Pass" class="input">
+       </div>  
+      <div class="inputfield">
+          <label>Confirm Password</label>
+          <input type="password" name = "pass" class="input">
+       </div> 
+        <div class="inputfield">
+          <label>Gender</label>
+          <div class="custom_select">
+            <select>
+              <option value="">Select</option>
+              <option value="male">Male</option>
+              <option value="female">Female</option>
+            </select>
+          </div>
+       </div> 
+        <div class="inputfield">
+          <label>Email Address</label>
+          <input type="text" name = "mail" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>Phone Number</label>
+          <input type="text" name = "mobile" class="input">
+       </div> 
+      <div class="inputfield">
+          <label>Address</label>
+          <textarea class="textarea" name = "adress"></textarea>
+       </div> 
+    
+      <div class="inputfield terms">
+          <label class="check">
+            <input type="checkbox" id = "check" onclick = " validateForm()",>
+            <span class="checkmark"></span>
+          </label>
+          <p>Agreed to terms and conditions</p>
+       </div> 
+      
+       <div class="inputfield">
+          
+        <input type="submit" value="Register" class="btn" onclick = "return validateForm()"  >
+        
+        </div>
+  
+</form>
+</body>
+</html>

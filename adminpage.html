@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document222</title>
+    <link href="adminpage.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header>
+      <div class="container2">
+        <div class="logo">
+            <a href="#"> <img src="logotransparent" height="53" width="200"></a>
+          </div>
+          <nav>
+            <li><a href="D:\web dev\together\homeadmin.html"> Home </a></li>
+            <li><a href="D:\web dev\together\activitiesadmin.html"> Actvities </a></li>
+            <li><a href="D:\web dev\together\volunteeradmin.html"> Volunteer </a></li>
+            <li><a href="D:\web dev\together\donationadmin.html"> Donation </a></li>
+            <li><a href="file:///D:/web%20dev/together/branchesadmin.html"> Branches </a></li>
+            <li><a href="file:///D:/web%20dev/together/aboutusadmin.html"> About Us </a></li>
+            <li><a href="file:///D:/web%20dev/together/login.html"> Log Out </a></li>
+            <li><a href="D:\web dev\together\adminpage.html"> ADMIN </a></li>
+             </ul>
+           </nav>
+      <span>
+        <div id="pl">
+          <img src="palette (1).png" alt="palette" width="30px" />
+        </div>
+
+        <ul class="mainColors">
+          <li class="colors" id="blue" data-color="#3498db"></li>
+          <li class="colors" id="red" data-color="#a50808"></li>
+          <li class="colors" id="lightsalamon" data-color="#FFA07A"></li>
+          <li class="colors" id="green" data-color="#39a275"></li>
+          <li class="colors" id="hotpink" data-color="#FF69B4"></li>
+          <li class="colors" id="move" data-color="#9b59b6"></li>
+        </ul>
+      </span>
+    </header>
+    <div id="container">
+      <h1>Hello Admin</h1>
+      <p>
+        You can change page colour by using the right colors button as shown in pictures
+      </p>
+      
+    </div>
+    <script src="adminpage.js"></script>
+  </body>
+</html>
+
+
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+* {box-sizing: border-box}
+body {font-family: Verdana, sans-serif; margin:0}
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 900px;
+  position:fixed; left:90px; top:430px;
+  margin: auto;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: #EBEBEB;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgb(115, 110, 110);
+  opacity: 0.5;
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 10px;
+  width: 10px;
+  margin: 0 2px;
+  background-color: #1A1A1A;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+  position:fixed; left:360px; top:840px;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 0.5s;
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .prev, .next,.text {font-size: 11px}
+}
+</style>
+</head>
+<body>
+
+<div class="slideshow-container">
+
+<div class="mySlides fade">
+  <img src="1ststep.JPG" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="2ndstep.jpeg" style="width:100%">
+</div>
+
+<div class="mySlides fade">
+  <img src="3rdstep.JPG" style="width:100%">
+</div>
+
+<a class="prev" onclick="plusSlides(-1)">❮</a>
+<a class="next" onclick="plusSlides(1)">❯</a>
+
+</div>
+<br>
+
+
+
+<script>
+let slideIndex = 1;
+showSlides(slideIndex);
+
+function plusSlides(n) {
+  showSlides(slideIndex += n);
+}
+
+function currentSlide(n) {
+  showSlides(slideIndex = n);
+}
+
+function showSlides(n) {
+  let i;
+  let slides = document.getElementsByClassName("mySlides");
+  let dots = document.getElementsByClassName("dot");
+  if (n > slides.length) {slideIndex = 1}    
+  if (n < 1) {slideIndex = slides.length}
+  for (i = 0; i < slides.length; i++) {
+    slides[i].style.display = "none";  
+  }
+  for (i = 0; i < dots.length; i++) {
+    dots[i].className = dots[i].className.replace(" active", "");
+  }
+  slides[slideIndex-1].style.display = "block";  
+  dots[slideIndex-1].className += " active";
+}
+</script>
+
+</body>
+</html>

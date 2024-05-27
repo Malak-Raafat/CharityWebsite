@@ -1,0 +1,53 @@
+<div class="container2">
+            <!-- Slider main container -->
+            <div class="swiper">
+                <!-- Additional required wrapper -->
+                <div class="swiper-wrapper">
+                    <!-- Slides -->
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/flat-clothing-donation-concept_52683-54768.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/deaf-man-woman-communicating-through-sign-language-disabled-people-talking-huge-ear-flat-illustration_74855-18731.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/hand-drawn-illustration-world-down-syndrome-day_23-2148825647.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/flat-world-cancer-day-background_23-2147745545.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/c6bb9dde5d9b01d978e3e504e85483d6.jpg" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/human-donates-blood-world-blood-donor-day-card-design_1035-23206.webp" /></div>
+                    <div class="swiper-slide"><img src="file:///C:/Users/Ahmed%20Raafat/Documents/web%20images/hand-drawn-flat-international-day-against-breast-cancer-background_23-2149070006.webp"/></div>
+                    ...
+                </div><!--cloosing swiper-slide div-->
+                <!-- If we need pagination -->
+                <div class="swiper-pagination"></div>
+    
+                <!-- If we need navigation buttons -->
+                <div class="swiper-button-prev"></div>
+                <div class="swiper-button-next"></div>
+    
+    
+            </div><!--closing swiper div-->
+        </div><!--closing end of container div-->
+    
+        <script src="https://cdn.jsdelivr.net/npm/swiper@8/swiper-bundle.min.js"></script>
+        <script>
+            const swiper = new Swiper('.swiper', {
+                autoplay:{
+                    delay: 3000,
+                    disableOnInteraction:false,
+            },
+    
+                loop: true,
+    
+                // pagination
+                pagination: {
+                    el: '.swiper-pagination',
+                    //da lama bndos 3al dwareya el taht byghyarha
+                    clickable: true ,
+                },
+    
+                // Navigation arrows
+                navigation: {
+                    nextEl: '.swiper-button-next',
+                    prevEl: '.swiper-button-prev',
+                },
+    
+    
+            });
+        </script>
+        

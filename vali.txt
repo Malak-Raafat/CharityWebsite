@@ -1,0 +1,29 @@
+ <script type="text/javascript"> 
+
+  function validateForm() {
+    var valid = true;
+    if(document.inputForm.Fname.value==""){
+    alert("First name is empty");
+    document.inputForm.Fname.focus();
+    valid=false;
+ }
+    else if(document.inputForm.Lname.value==""){
+    alert("Last Name is empty");
+    document.inputForm.name.Lfocus();
+    valid=false; }
+    else if(document.inputForm.Pass.value==""){
+    alert("Password is empty");
+    document.inputForm.Pass.focus();
+    valid=false; }
+    else if(document.inputForm.pass.value==""){
+    alert("Please confirm your password");
+    document.inputForm.pass.focus();
+    valid=false; }
+    else {
+      alert("please confirm our terms and conditions");
+      
+    }
+    
+    }
+  
+        </script> 

@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title> Together Foundation </title>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&display=swap" rel="stylesheet">
+    <meta charset="UTF-8"/>
+    <meta name="description" content="for helping people all over the world." />
+    <meta name="keyword" content="help,share ,give" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+    <link href="https://fonts.googleapis.com/css2?family=DynaPuff:wght@400;500;700&family=Secular+One&display=swap" rel="stylesheet">
+    
+    <script>
+
+        function validateForm() {
+            var valid = true;
+            if (document.Form.Fname.value == "") {
+                alert("Please write your first name");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Sname.value == "") {
+                alert("Please write your surname");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Phone.value == "") {
+                alert("Please write your phone number");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.Email.value == "") {
+                alert("Please write your E-Mail");
+                document.Form.name.focus();
+                valid = false;
+            }
+            else if (document.Form.value.value == "") {
+                alert("Please write donation value");
+                document.Form.name.focus();
+                valid = false;
+            }
+
+            else if (document.Form.Email.value.indexOf("@") == -1 || document.Form.Email.value.indexOf(".") == -1) {
+                alert("Please Enter valid email, e.g:info@yahoo.com");
+                document.Form.Email.focus();
+                valid = false;
+            }
+else if(valid==false){
+    return 0;
+}
+            else
+                return valid;
+        }
+        function submitting() {
+            alert("You Submitted The Form");
+        }
+    </script>
+</head>
+<style>
+  nav {
+    width: 100%;
+    overflow: auto;
+    background-image: linear-gradient(240deg,#1CB5E0 0%,#000046 100%);
+    height: 55px;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+
+ul {
+    padding: auto;
+    padding-left: 5%;
+    margin: 0 0 0 200px;
+    list-style: none;
+}
+
+    ul li {
+        float: left;
+        margin-top: 5px;
+        margin-left: 50px;
+    }
+
+li a {
+    width: 100px;
+    display: block;
+    padding: 20px;
+    text-decoration: none;
+    font-size: 16px;
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', 'Calibri', 'Trebuchet MS', sans-serif;
+    color: white;
+    text-align: right;
+    border-radius: 5px;
+}
+
+a:hover {
+    background: #46769B;
+    text-transform: uppercase;
+}
+
+.logo img {
+    position: absolute;
+    margin-top: 0px;
+    margin-left: 10px;
+    text-align: left;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-image: url('activities3.jpeg');
+    background-repeat: no-repeat;
+    background-size: 1850px;
+    height: 100px; 
+  
+}
+
+.background-image {
+    background-repeat: no-repeat;
+    background-position: 50% 50%;
+   
+}
+.donate-box {
+    background-color: #20607d57;
+    
+    color:rgb(255, 255, 255);
+    padding: 30px 30px;
+    left: 50%;
+    top: 15.28cm;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 70px 30px;
+    border-radius: 7px;
+    
+}
+
+    .donate-box h1 {
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        text-align: center;
+        font-weight:bold;
+        font-family:'Courier New', Courier, monospace;
+       
+    }
+
+    .donate-box p {
+        margin: 0;
+        padding: 0;
+        font-family: 'DynaPuff', cursive;
+        font-family: 'Secular One', sans-serif;
+        font-weight: 500;
+        font-size: 2.5vh;
+        text-align: center;
+        
+    }
+
+input[type=submit] {
+    width: 40%;
+    background-color: midnightblue;
+    color: white;
+    padding: 12px 0px 12px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 2.1vh;
+}
+
+.donate-box input[type="submit"]:hover {
+    cursor: pointer;
+    background: rgb(4, 146, 171);
+    color: black;
+}
+
+input[type=reset] {
+    width: 40%;
+    background-color: midnightblue;
+    color: white;
+    padding: 12px 0px 12px 5px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 2.1vh;
+}
+
+.donate-box input[type="reset"]:hover {
+    cursor: pointer;
+    background: rgb(4, 146, 171);
+    color: black;
+}
+</style>
+<body>
+  <div class="logo">
+      <a href="#"> <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1009482750597812264/tog2.png" height="53" width="200"></a>
+    </div>
+    <nav>
+      <ul>
+        <li><a href="file:///D:/web%20dev/together/home.html"> Home </a></li>
+        <li><a href="file:///D:/web%20dev/together/activities.html"> Actvities </a></li>
+        <li><a href="file:///D:/web%20dev/together/volunteer.html"> Volunteer </a></li>
+        <li><a href="file:///D:/web%20dev/together/donation.html"> Donation </a></li>
+        <li><a href="file:///D:/web%20dev/together/branches.html"> Branches </a></li>
+        <li><a href="file:///D:/web%20dev/together/aboutus.html"> About Us </a></li>
+        <li><a href="file:///D:/web%20dev/together/login.html"> Log Out </a></li>
+       </ul>
+     </nav>
+
+      <div class="donate-box">
+          <h1>
+              DONATE HERE...
+          </h1>
+          <form name="Form"
+        onreset="alert('The Form Will Be Reset')"
+        onsubmit="validateForm(),submitting()">
+        <div class="background-image"></div>
+              <p>
+                  Firstname: <input type="text" name="Fname" placeholder="your Firstname.." /> <br />  <br />
+                  Surname: <input type="text" name="Sname" placeholder="your Surname.." /> <br /> <br />
+                  Phone: <input type="text" name="Phone" placeholder="your Phone number.." /> <br /> <br />
+                  E-Mail: <input type="text" name="Email" placeholder="your Email.." /> <br /> <br />
+                  Donate to: <select>
+
+                      <option value="Literacy"> Literacy </option>
+                      <option value="Poor Bank">Poor Bank</option>
+                      <option value="Build"> Building mosques and Churches </option>
+                      <option value="Help">Helping Blind , Deaf</option>
+                      <option value="Build2">Building Hospitals</option>
+                      <option value="Feed"> Feeding People </option>
+                      <option value="Help2">Helping Poor People</option>
+                      <option value="Help3"> Helping orphans</option>
+                      <option value="Cure">Addiction Cure</option>
+                      <option value="Cure2">Animal Cure</option>
+                      <option value="Patients">Cancer Patients</option>
+                      <option value="Patients2">AIDS Patients</option>
+
+                  </select> <br /> <br />
+                  Donation value: <input type="text" name="value" placeholder="Write a value.." /> <br /> <br />
+                  Gender : <br />
+                  <input type="radio" name="Mal" /> Male <br />
+                  <input type="radio" name="Fem" /> Female <br />
+                  <br />
+                  Comment: <br />
+                  <textarea rows="4" cols="50"> </textarea>
+                  <br /> <br />
+                  Payment Method: <br /> <br />
+                  <input type="radio" name="Pay1" /> Fawry <br />
+                  <input type="radio" name="pay2" /> CIB <br />
+                  <input type="radio" name="Pay3" /> QNB <br />
+                  <input type="radio" name="pay4" /> Aman <br />
+                  <input type="radio" name="pay5" /> Vodafone Cash <br /> <br />
+                  <input type="submit" value="Submit" />
+                  <input type="reset" value="Reset" />
+
+              </p>
+
+
+        </form>
+      </div>
+
+  
+
+</body>
+</html>

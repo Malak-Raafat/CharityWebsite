@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Volunteer</title>
+
+    <!-- css file link -->
+    <link rel="stylesheet" href="volunteer.css">
+</head>
+
+
+<body>
+
+    <div class="logo">
+        <a href="#"> <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1009482750597812264/tog2.png" height="80" width="400"></a>
+      </div>
+      <nav>
+        <ul>
+            <li><a href="file:///D:/web%20dev/together/home.html"> Home </a></li>
+                <li><a href="file:///D:/web%20dev/together/activities.html"> Actvities </a></li>
+                <li><a href="file:///D:/web%20dev/together/volunteer.html"> Volunteer </a></li>
+                <li><a href="file:///D:/web%20dev/together/donation.html"> Donation </a></li>
+                <li><a href="file:///D:/web%20dev/together/branches.html"> Branches </a></li>
+                <li><a href="file:///D:/web%20dev/together/aboutus.html"> About Us </a></li>
+                <li><a href="file:///D:/web%20dev/together/login.html"> Log Out </a></li>
+         </ul>
+       </nav>
+       <br>
+       <br>
+       <br>
+       
+       
+    <!-- <img src="logo.jpeg" alt="img" id="img" class="img">-->
+    <h1 id="title">Please answer this questions</h1>
+
+    <!-- quiz-container -->
+    <div id="quiz-container">
+        <!-- question container -->
+        <div class="questions">
+            <b>
+            <h2 id="question"></h2>
+            <ol type="A">
+                <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+            </ol>
+        </b>
+            <h4 id="stat"></h4>
+        </div>
+
+        <div class="buttons">
+            <button type="button" class="next">Next</button>
+        </div>
+
+    </div>
+
+    <!-- scoreboard section -->
+    <div id="scoreboard">
+        <img src="logo.jpeg" alt="">
+        <h2 id="score-title"></h2>
+        <h2 id="score"></h2>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Re-answer</button>
+        
+    </div>
+
+    <!-- answers section -->
+    <div id="answerBank">
+        <b>
+        <h2>Answers :</h2>
+        <ol type="1" id="answers">
+ </ol>
+    </b>
+        <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+    </div>
+
+    <!-- javascript file source -->
+    <script src="volunteer.js"></script>
+</body>
+</html>

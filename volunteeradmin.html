@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Document222</title>
+    <link href="volunteeradmin.css" rel="stylesheet" />
+   
+  </head>
+  <body>
+    <div class="logo">
+        <a href="#"> <img src="https://cdn.discordapp.com/attachments/1005199143117012997/1009482750597812264/tog2.png" height="80" width="400"></a>
+      </div>
+    <header>
+      <div class="container2">
+        <nav>
+            <ul>
+                <li><a href="D:\web dev\together\homeadmin.html"> Home </a></li>
+                <li><a href="D:\web dev\together\activitiesadmin.html"> Actvities </a></li>
+                <li><a href="D:\web dev\together\volunteeradmin.html"> Volunteer </a></li>
+                <li><a href="D:\web dev\together\donationadmin.html"> Donation </a></li>
+                <li><a href="file:///D:/web%20dev/together/branchesadmin.html"> Branches </a></li>
+                <li><a href="file:///D:/web%20dev/together/aboutusadmin.html"> About Us </a></li>
+                <li><a href="file:///D:/web%20dev/together/login.html"> Log Out </a></li>
+                <li><a href="D:\web dev\together\adminpage.html"> ADMIN </a></li>
+             </ul>
+             
+           </nav>
+      
+
+        <ul class="mainColors">
+          <li class="colors" id="blue" data-color="#3498db"></li>
+          <li class="colors" id="red" data-color="#a50808"></li>
+          <li class="colors" id="yellow" data-color="#d4ef1e"></li>
+          <li class="colors" id="green" data-color="#34db5b"></li>
+          <li class="colors" id="black" data-color="#020d14"></li>
+          <li class="colors" id="move" data-color="#9b59b6"></li>
+        </ul>
+      </span>
+     
+    </header>
+    <script src="adminpage.js"></script>
+  
+     <!-- <img src="logo.jpeg" alt="img" id="img" class="img">-->
+     
+
+     <!-- quiz-container -->
+     <div id="quiz-container">
+        <h1 id="title">Please answer these questions</h1>
+        </div>
+         <!-- question container -->
+         <div class="questions">
+             
+                 <div id="question"></div>
+                 <ol type="A">
+                     <li class="option"><span id="option0" onclick="calcScore(this)"></span></li>
+                     <li class="option"><span id="option1" onclick="calcScore(this)"></span></li>
+                 </ol>
+             
+             <h4 id="stat"></h4>
+         </div>
+ 
+         <div class="buttons">
+             <button type="button" class="next">Next</button>
+ 
+     </div>
+ 
+     <!-- scoreboard section -->
+     <div id="scoreboard">
+         <img src="https://cdn.discordapp.com/attachments/1012072897998762066/1012072942898782328/IMG-20220824-WA0006.jpg" alt="">
+         <h2 id="score-title"></h2>
+         <h2 id="score"></h2>
+         <button type="button" id="score-btn" onclick="backToQuiz()">Re-answer</button>
+ 
+     </div>
+ 
+     <!-- answers section -->
+     <div id="answerBank">
+         
+             <h2>Answers :</h2>
+             <ol type="1" id="answers">
+             </ol>
+         
+         <button type="button" id="score-btn" onclick="backToQuiz()">Back to Quiz</button>
+        </div>
+        <script src="volunteer.js"></script>
+ </body>
+ 
+ </html>
